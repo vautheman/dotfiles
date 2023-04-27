@@ -27,16 +27,18 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   -- Colorscheme
-  use { "bluz71/vim-nightfly-colors", as = "nightfly", branch = 'legacy' }
+  -- use { "bluz71/vim-nightfly-colors", as = "nightfly", branch = 'legacy' }
+  use("techtuner/aura-neovim")
     
   -- comment with gc
   use("numToStr/Comment.nvim")
 
   -- file explorer
   use('preservim/nerdtree')
+  use('ryanoasis/vim-devicons')
 
   -- Icons
-  use("kyazdani42/nvim-web-devicons")
+  -- use("kyazdani42/nvim-web-devicons")
 
   -- Status line
   use("nvim-lualine/lualine.nvim")
